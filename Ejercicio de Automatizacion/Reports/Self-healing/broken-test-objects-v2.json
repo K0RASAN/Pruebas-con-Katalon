@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Products/Products/Page_Swag Labs/lbl_ProdcutName",
+      "brokenLocator": "//a[@id\u003d\u0027item_5_title_link\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027$49.99\u0027])[1]/preceding::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/Products/Page_Swag Labs/lbl_ProdcutName_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Products/Products/Page_Swag Labs/lbl_ProductPrice",
+      "brokenLocator": "//div[@id\u003d\u0027cart_contents_container\u0027]/div/div/div[3]/div[2]/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sauce Labs Fleece Jacket\u0027])[1]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/Products/Page_Swag Labs/lbl_ProductPrice_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CheckOut/Page_Swag Labs/btn_Finish",
+      "brokenLocator": "//button[@id\u003d\u0027finish\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Twitter\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CheckOut/Page_Swag Labs/btn_Finish_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ProductPage/Page_Swag Labs/lbl_ProductName2",
+      "brokenLocator": "//div[@id\u003d\u0027inventory_item_container\u0027]/div/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Swag Labs\u0027])[2]/following::div[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ProductPage/Page_Swag Labs/lbl_ProductName2_neighbor.png"
+    }
+  ]
+}
